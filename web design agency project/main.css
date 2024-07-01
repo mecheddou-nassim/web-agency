@@ -1,0 +1,89 @@
+span{
+    color: midnightblue;
+    
+}
+.logo{
+    margin: 40px;
+}
+.creative{
+    font-size: 60px;
+    margin: 40px;
+}
+
+.title{
+    font-size: 20px;
+   clear: both;
+  
+  
+}
+.seconde{
+    width: 45%;
+    float: left;
+    margin-right:50px ;
+   
+}
+.right{
+    float: right;
+}
+.card{
+    width: 45%;
+}
+.const{
+    height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+.left{
+    float: left;
+    margin-left: 50px;
+}
+.constraction{
+    clear: both;
+    font-size: 20px;
+}
+footer{
+    float: right;
+    margin-left: 900px;
+}
+@media(max-width:680px){
+    
+    .card {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    h2,p,h3{
+        clear: both;
+       
+    }
+    .seconde{
+        width: 100%;
+        object-fit: cover;
+    }
+    .const{
+        width: 300px;
+        object-fit: cover;
+        margin-left: 50px;
+        width: 100%;
+
+    }
+    .constr{
+        margin-left: 49px;
+    }
+    .creative{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:25px;
+        margin: 90px;
+        margin-right: 25px;
+    }
+    .logo{
+        font-size: 4rem;
+    }
+    footer{
+        font-size: auto;
+        margin: 30px;
+    }
+}
